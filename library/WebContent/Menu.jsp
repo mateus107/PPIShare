@@ -49,10 +49,11 @@ li a:hover:not(.active) {
   <li><a class="active" href="#home">Home</a></li>
   <li><a href="cadastroAluno.jsp">Cadastro de Alunos</a></li>
   <li><a href="cadastroLivro.jsp">Cadrastro de Livros</a></li>
-  <li><a href="sistema?comando=ListarAL">Adicione um Empréstimo</a></li>
+  <li><a href="sistema?comando=ListarAL">Adicione um EmprÃ©stimo</a></li>
   <li><a href="sistema?comando=ListarAlunos">Lista de Alunos</a></li>
   <li><a href="sistema?comando=ListarLivros">Lista de Livros</a></li>
   <li><a href="sistema?comando=listaEmprestimo">Lista de Emprestimos</a></li>
 </ul>
 </body>
+	<h1>Passei aqui 24/09/18</h1>
 </html>
