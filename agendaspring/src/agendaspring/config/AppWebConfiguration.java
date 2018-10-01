@@ -17,4 +17,5 @@ public class AppWebConfiguration {
 		resolver.setPrefix("/WEB-INF/views/");
 		return resolver;
 }
+
 }
