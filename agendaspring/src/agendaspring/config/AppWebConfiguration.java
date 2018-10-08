@@ -12,9 +12,10 @@ import agendaspring.controllers.HomeController;
 public class AppWebConfiguration {
 @Bean
 	public InternalResourceViewResolver internalResourceViewResolver() { 
-		InternalResourceViewResolver resolver = internalResourceViewResolver();
-		
-		resolver.setPrefix("/WEB-INF/views/");
+	//classe destinada a mapeamento automatico
+		InternalResourceViewResolver resolver = new InternalResourceViewResolver();
+		resolver.setPrefix("/WEB-INF/views/"); //Essa pasta não é acessivel por url. portanto o usuario so acessara, setiver passado pelo controler
+		resolver.setSuffix(".jsp");
 		return resolver;
 }
 
